@@ -2,11 +2,11 @@
 
 🏆 **First Prize Winner** - The 6th Shanghai Intercollegiate Open Data Challenge 
 
-## 📋 Overview
+## Overview
 
 This project addresses the challenge of predicting user purchase behavior in social e-commerce platforms (such as Xiaohongshu, Douyin/TikTok). Unlike traditional e-commerce where users follow a "search-compare-purchase" path, social e-commerce operates through a "content discovery-interaction-trust-conversion" funnel. This repository contains comprehensive data analysis, user segmentation, association rule mining, and predictive modeling for understanding and optimizing purchase conversion in social commerce environments.
 
-## 🎯 Problem Background
+## Problem Background
 
 Social e-commerce has transformed the consumer journey by integrating content creation, social interaction, and shopping. Key characteristics include:
 
@@ -17,7 +17,7 @@ Social e-commerce has transformed the consumer journey by integrating content cr
 
 This project aims to identify high-conversion user segments, understand behavioral mechanisms, and provide actionable insights for content distribution and operational strategies.
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains **100,000 user purchase behavior records** with **31 features** and **1 binary target variable**.
 
@@ -51,7 +51,7 @@ The dataset contains **100,000 user purchase behavior records** with **31 featur
 6. **Target Variable**
    - `label`: Purchase conversion (0=No Purchase, 1=Purchase)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 social-ecommerce-purchase-prediction/
@@ -63,7 +63,7 @@ social-ecommerce-purchase-prediction/
 └── README.md                    # This file
 ```
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis (EDA.ipynb)
 
@@ -112,7 +112,7 @@ social-ecommerce-purchase-prediction/
 - **Content strategy**: Video content with strong discounts performs best for new users
 - **Timing**: Shorter last_click_gap correlates with higher conversion probability
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 1. **Personalized Content Distribution**
    - Match content format (video vs. image) to user segment preferences
@@ -130,7 +130,7 @@ social-ecommerce-purchase-prediction/
    - Optimize title emotional scores and video content production
    - Leverage social proof through visible engagement metrics
 
-## 📈 Results Summary
+## Results Summary
 
 - **Model Performance**: CatBoost achieved 0.7765 ROC-AUC with strong generalization
 - **User Segments**: Successfully identified 8 meaningful behavioral clusters
