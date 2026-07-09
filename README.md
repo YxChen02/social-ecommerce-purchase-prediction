@@ -103,7 +103,7 @@ social-ecommerce-purchase-prediction/
 - **Price sensitivity**: Discount rate >15% significantly improves conversion for price-sensitive segments
 
 ### User Segments
-- **Core segments identified**: 4-6 distinct behavioral clusters with varying conversion patterns
+- **Core segments identified**: 8 distinct behavioral clusters with varying conversion patterns
 - **High-value users**: Characterized by frequent purchases, high interaction rates, and strong author relationships
 - **Opportunity segments**: Users with high browsing but low conversion represent optimization opportunities
 
